@@ -1,4 +1,4 @@
-### IMPORT FUNCTIONS ###
+nde### IMPORT FUNCTIONS ###
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -95,7 +95,7 @@ with colm2:
     st.write(f'Main type: {m_type}')
     st.write(f'Height: {height}')
     st.write(f'Weight: {weight}')
-    with st.popover(f'Moves: {num_moves}'):
+    with st.expander(f'Moves: {num_moves}'):
         st.write(moves_str)
 
 st.subheader("Height compared to largest and smallest pokemon")
