@@ -1,4 +1,4 @@
-nde### IMPORT FUNCTIONS ###
+### IMPORT FUNCTIONS ###
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
