@@ -5,13 +5,6 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import requests
-from PIL import Image
-
-
-# TO DO
-# display image of pokemon  -> maybe make it cycle through images
-# use whole pokedex, change from slider to other method of inputting poke number
-# cache data to make it faster
 
 st.title("Pokemon Explorer")
 
